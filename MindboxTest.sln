@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindboxTest", "MindboxTest\MindboxTest.csproj", "{E702E829-FD1B-43D8-A84E-08726A2314C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOTFCalculator", "AOTFCalculator\AOTFCalculator.csproj", "{178509AE-9B89-4A4C-9148-84C290C46CC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOTFCalculator.Tests", "AOTFCalculator.Tests\AOTFCalculator.Tests.csproj", "{FD8DD215-9878-4D13-8151-CDCC207ACC3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{28BC9345-A6CB-4BA3-8390-491581EC41CF}"
+	ProjectSection(SolutionItems) = preProject
+		MindboxSql.sql = MindboxSql.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E702E829-FD1B-43D8-A84E-08726A2314C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E702E829-FD1B-43D8-A84E-08726A2314C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E702E829-FD1B-43D8-A84E-08726A2314C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E702E829-FD1B-43D8-A84E-08726A2314C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{178509AE-9B89-4A4C-9148-84C290C46CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178509AE-9B89-4A4C-9148-84C290C46CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178509AE-9B89-4A4C-9148-84C290C46CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178509AE-9B89-4A4C-9148-84C290C46CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD8DD215-9878-4D13-8151-CDCC207ACC3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8DD215-9878-4D13-8151-CDCC207ACC3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8DD215-9878-4D13-8151-CDCC207ACC3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8DD215-9878-4D13-8151-CDCC207ACC3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {163FC3D3-648D-4429-8114-CBC046E2C95D}
+	EndGlobalSection
+EndGlobal
